@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Line 1 : Hello World by Ganesh K from Github!!! <p>'Line 2 : Hello World by Ganesh K from Github!!!'</p>'));
+app.get('/', (req, res) => res.send('Line 1 : Hello World by Ganesh K from Github!!! <p>Line 2 : Hello World by Ganesh K from Github!!!</p>'));
 app.get('/', (req, res) => res.send('Line 2 : Hello World by Ganesh K from Github!!!'));
 
 app.listen(port);
